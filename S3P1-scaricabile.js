@@ -86,12 +86,12 @@ function upperFirst(str) {
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 let n = parseInt(prompt("Inserisci un numero fra 0 e 10"))
-const arr = []
+const array = []
 
 const giveMeRandom = function (n) {
-    const arr = []
+    
     for (let i = 0; i < n; i++) {
-      arr.push(Math.floor(Math.random() * 10))
+      array.push(Math.floor(Math.random() * 10))
     }
     return arr
   }
